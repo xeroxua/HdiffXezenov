@@ -1,0 +1,17 @@
+# Ignore Game Folders and Patch Folders
+*_hdiff/
+*_Data/
+_HDiff_Backup_*/
+_HDiff_Temp/
+
+# Ignore Logs and Temporary Files
+@log.txt
+*.tmp
+*.log
+.DS_Store
+@SESSION_CONTEXT_HISTORY.md
+
+# Include only our scripts and documentation
+!HhdiffXezenov.py
+!run_patcher.bat
+!README.md
